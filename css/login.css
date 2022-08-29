@@ -1,0 +1,19 @@
+.logo{
+    width:7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+h3{
+    margin-top: 0.5em;
+}
+
+input{
+    margin: 1em auto 1em auto;
+}
+body{
+    font-family:raleway,'Roboto', sans-serif;
+    
+}

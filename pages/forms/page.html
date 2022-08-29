@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            position: absolute;
+            left: 10%;
+            top: 10%;
+        }
+        fieldset{
+            width: 1000px;
+            padding: 10px;
+            background: linear-gradient(to left, #a4dee0, #f1f1f1);
+        }
+        legend{
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        label{
+            font-weight: 900;
+            display: block;
+            font-size: 1.2rem;
+            padding: 7px 0;
+            text-transform: capitalize;
+        }
+        input{
+            width: 350px;
+            padding: 5px;
+        }
+        
+        .main{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>muni clinic medical record</legend>
+            <div class="main">
+                <div class="left">
+                    <label for="date">date</label><input type="date" name="" id="date">
+                    <label for="patient">patient id</label><input type="text" name="" id="patient">
+                    <label for="patientName">patient name</label><input type="text" name="" id="patientName">
+                    <label for="age">age</label><input type="number" name="" id="age">
+                    <label for="sex">sex</label><input type="text" name="" id="sex">
+                    <label for="weight">weight</label><input type="number" name="" id="weight">
+                    <label for="symptoms">symptoms</label> <textarea name="" id="symptoms" cols="47" rows="5"></textarea>
+                </div>
+                <div class="right">
+                    <label for="tests">tests</label> <textarea name="" id="tests" cols="47" rows="4"></textarea>
+                    <label for="results">results</label> <textarea name="" id="results" cols="47" rows="4"></textarea>
+                    <label for="sickness">sickness</label> <textarea name="" id="sickness" cols="47" rows="4"></textarea>
+                    <label for="samples">samples</label> <textarea name="" id="samples" cols="47" rows="4"></textarea>
+                    <label for="drugs">drugs</label> <textarea name="" id="drugs" cols="47" rows="4"></textarea>
+                    <label for="dosage">dosage</label> <textarea name="" id="dosage" cols="47" rows="4"></textarea>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
